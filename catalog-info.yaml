@@ -1,1 +1,13 @@
-flowsource/azure-devops-project-key: rlg-cts
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: github-component
+  description: github component 1
+  annotations:
+    # GitHub Plugin Annotations
+    flowsource/github-repo-owner: maniksakhuja
+    flowsource/github-repo-name: App1
+spec:
+  type: service # website or service
+  owner: user:guest
+  lifecycle: experimental
