@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: github-component
-  description: github component 1
+  name: azure-devops-component
+  description: azure devops component
   annotations:
     # GitHub Plugin Annotations
     flowsource/github-repo-owner: maniksakhuja
