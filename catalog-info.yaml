@@ -8,7 +8,7 @@ metadata:
     flowsource/github-repo-owner: maniksakhuja
     flowsource/github-repo-name: App1
     flowsource/azure-devops-project-key: 'Onboarding'
-    flowsource/durationInDays: '180'
+    flowsource/durationInDays: '360'
 spec:
   type: service # website or service
   owner: user:guest
